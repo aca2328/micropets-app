@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
 - resources-dev.yaml
 - istio.yaml
-namespace: micropetdev
+namespace: default
 images:
   - name: localregistry:5000/micropet/cats
     newName: bmoussaud/micropet_cats
